@@ -1,5 +1,5 @@
-# Mappy
-advance navigation system and tools
+# Mappy(Advance Navigation System And Tools)
+
 
 Why we need mappy ??
 
@@ -8,3 +8,5 @@ Existing system is very complicated and there is no such option for area measure
 
 Existing system’s is doubtable because it has every user’s information and if we look at our system it is much more secure and no threat of Data piracy
 
+
+Link of the project : https://mahaveer.ga/maps/
