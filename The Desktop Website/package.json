@@ -1,0 +1,85 @@
+{
+    "name": "@mapbox/mapbox-gl-traffic",
+    "version": "1.0.2",
+    "description": "Mapbox GL JS plugin for enabling/disabling traffic",
+    "main": "mapbox-gl-traffic.js",
+    "scripts": {
+        "test": "eslint *.js",
+        "docs": "documentation readme mapbox-gl-traffic.js --section API"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mapbox/mapbox-gl-traffic.git"
+    },
+    "keywords": [
+        "mapbox",
+        "gis",
+        "vector",
+        "leaflet",
+        "gl"
+    ],
+    "author": "Lukas Martinelli",
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://github.com/mapbox/mapbox-gl-traffic/issues"
+    },
+    "homepage": "https://github.com/mapbox/mapbox-gl-traffic#readme",
+    "devDependencies": {
+        "documentation": "^11.0.0",
+        "eslint": "^2.8.0",
+        "eslint-config-mourner": "^2.0.1"
+    },
+    "peerDependencies": {
+        "mapbox-gl": ">=0.29.0 <2.0.0"
+    },
+    "eslintConfig": {
+        "parserOptions": {
+            "sourceType": "module"
+        },
+        "env": {
+            "browser": true
+        },
+        "extends": "mourner",
+        "rules": {
+            "indent": [
+                2,
+                2
+            ]
+        }
+    }
+} {
+    "name": "mapbox-gl-controls",
+    "version": "2.0.0",
+    "main": "./lib/index.js",
+    "description": "Controls for mapbox-gl",
+    "scripts": {
+        "lint": "eslint src --ext .js,.ts",
+        "watch": "tsc --watch & sass --watch src/index.scss:lib/controls.css",
+        "build": "tsc && sass src/index.scss:lib/controls.css",
+        "docs": "cp lib/controls.css docs && rollup --config docs/rollup.config.js"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^18.0.0",
+        "@rollup/plugin-node-resolve": "^11.2.1",
+        "@types/geojson": "^7946.0.7",
+        "@types/mapbox-gl": "^2.1.1",
+        "@typescript-eslint/eslint-plugin": "^4.22.0",
+        "@typescript-eslint/parser": "^4.22.0",
+        "eslint": "^7.25.0",
+        "eslint-config-xxx": "^1.0.0",
+        "mapbox-gl": "^2.2.0",
+        "rollup": "^2.45.2",
+        "sass": "^1.32.11",
+        "typescript": "^4.2.4"
+    },
+    "dependencies": {
+        "@turf/distance": "6.3.0"
+    },
+    "peerDependencies": {
+        "mapbox-gl": ">=1.0.0 <3.0.0"
+    },
+    "homepage": "https://bravecow.github.io/mapbox-gl-controls/",
+    "repository": "bravecow/mapbox-gl-controls",
+    "keywords": ["mapbox"],
+    "license": "MIT"
+}
