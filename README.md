@@ -56,7 +56,7 @@ note : app is currenty in development phase.
 
 ![image](https://user-images.githubusercontent.com/70194816/119953102-486fad00-bfbb-11eb-8d88-2e725406a04e.png)
 
-*APP
+*APP :
 
 ![Screenshot_2021-05-28-13-48-59-61 (2)](https://user-images.githubusercontent.com/70194816/119954059-3e01e300-bfbc-11eb-852e-1fd232a1b95e.jpg)
 
